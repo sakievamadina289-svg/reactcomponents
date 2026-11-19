@@ -1,0 +1,12 @@
+:root { font-family: Inter, system-ui, sans-serif; color: #29263a; background: #eeeaf4; }
+main { max-width: 44rem; margin: 6vh auto; padding: clamp(1rem, 5vw, 3rem); }
+header, .topic { color: #694781; font-weight: 600; }
+h1 { font-family: Georgia, serif; font-size: clamp(3rem, 9vw, 5rem); margin: .25em 0; }
+section { background: #fffdf8; border-top: 4px solid #795388; padding: clamp(1rem, 4vw, 2rem); }
+fieldset { border: 0; padding: 0; }
+legend { font-size: 1.45rem; font-weight: 600; margin-bottom: 1rem; }
+.option { display: flex; align-items: baseline; gap: .5rem; border-bottom: 1px solid #ddd4e0; padding: .8rem 0; }
+label { flex: 1; cursor: pointer; }
+button { background: #54345f; color: white; border: 0; border-radius: .4rem; padding: .7rem 1.1rem; margin-top: 1rem; font: inherit; cursor: pointer; }
+button:disabled { opacity: .5; }
+aside { margin-top: 1.5rem; line-height: 1.6; }
